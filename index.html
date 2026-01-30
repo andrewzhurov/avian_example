@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/index-597d90855083f957.css" integrity="sha384-7GZOiJ7WwbJ2PKz3iZ2Vt/NHNz65guUjQZ/uo6o2LYkbO/Al8pImelhUBJCReJw+"/>
+    
+<script type="module">
+import init, * as bindings from '/avian_example-5d0fe4c0bbd76ed7.js';
+const wasm = await init({ module_or_path: '/avian_example-5d0fe4c0bbd76ed7_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+  <link rel="modulepreload" href="/avian_example-5d0fe4c0bbd76ed7.js" crossorigin="anonymous" integrity="sha384-Xr6GOXZeEM2EfRgRmGyiK8hVGrDzqOLyVZI1KWRCXzawb4HvT5UsfLRc+c0uCbnd"><link rel="preload" href="/avian_example-5d0fe4c0bbd76ed7_bg.wasm" crossorigin="anonymous" integrity="sha384-JkRTCEiuUTOc6SWtjD2/ADXytuRJi8uzHiZSt7kcVWAK6qiWkpQAh1KU7Cgkeihc" as="fetch" type="application/wasm"></head>
+</html>
